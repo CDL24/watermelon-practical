@@ -1,0 +1,120 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'pink',
+    borderRadius: 5,
+    margin: 16,
+  },
+  subContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  title: {
+    textAlign: 'center',
+    padding: 16,
+    fontSize: 22,
+    color: 'purple',
+  },
+  btnAdd: {
+    backgroundColor: 'white',
+    borderRadius: 5,
+    justifyContent: 'center',
+    height: 48,
+    marginRight: 16,
+    marginTop: 10,
+  },
+  addEmpBtn: {
+    paddingHorizontal: 8,
+    fontSize: 18,
+    color: 'purple',
+  },
+  flex: {
+    flex: 1,
+  },
+  itemView: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    padding: 10,
+    borderColor: 'grey',
+    borderRadius: 5,
+    borderWidth: 0.5,
+    marginVertical: 10,
+  },
+  itemText: {
+    color: '#FFF',
+    fontSize: 16,
+  },
+  editBtn: {
+    color: 'blue',
+    fontSize: 16,
+  },
+  modalContainer: {
+    flex: 1,
+    backgroundColor: '#E0E0E0',
+  },
+  rowConatiner: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  optionBtn: {
+    textAlign: 'center',
+    padding: 16,
+    fontSize: 22,
+    color: 'purple',
+  },
+  canelBtn: {
+    backgroundColor: 'white',
+    borderRadius: 5,
+    justifyContent: 'center',
+    height: 48,
+    marginRight: 16,
+    marginTop: 10,
+  },
+  cancelText: {
+    paddingHorizontal: 8,
+    fontSize: 14,
+    color: 'purple',
+  },
+  viewBg: {
+    width: '100%',
+    height: 1,
+    backgroundColor: 'purple',
+    marginVertical: 10,
+  },
+  input: {
+    borderColor: 'grey',
+    borderRadius: 5,
+    padding: 8,
+    backgroundColor: 'white',
+    marginHorizontal: 16,
+    marginVertical: 8,
+  },
+  error: {
+    color: 'red',
+    fontSize: 12,
+    textAlign: 'center',
+    padding: 8,
+  },
+  bottomBtnContainer: {
+    backgroundColor: 'purple',
+    borderRadius: 5,
+    justifyContent: 'center',
+    alignSelf: 'center',
+    width: '80%',
+    height: 48,
+    marginRight: 16,
+    marginTop: 10,
+    position: 'absolute',
+    bottom: 10,
+  },
+  bottomBtnText: {
+    paddingHorizontal: 8,
+    fontSize: 18,
+    color: '#FFF',
+    justifyContent: 'center',
+    textAlign: 'center',
+  },
+});
